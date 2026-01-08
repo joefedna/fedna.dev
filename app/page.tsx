@@ -4,10 +4,10 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        fedna.dev
+        This Is Not the Website. This Is the Engine Room.
       </h1>
       <p className="mb-4">
-        {`You have landed in the engine room. The real story, the thinking, and the serious stuff lives at our homepage linked below. This domain exists so ideas can ship fast, break faster, and quietly turn into products.`}
+        {`Fedna Research is an AI research and deployment company building advanced AI and automations for individuals and teams. You have landed in the engine room, where things are built, tested, and occasionally broken. The real story, the thinking, and the polished version live at our homepage linked below. This domain exists so ideas can ship fast, fail faster, and quietly grow into products. If you are here, you are either early, internal, or exactly the kind of curious we like.`}
       </p>
       <div className="my-8">
         <BlogPosts />
