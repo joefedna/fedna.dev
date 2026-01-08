@@ -4,12 +4,6 @@ const navItems = {
   'https://fednaresearch.com/': {
     name: 'Fedna Research',
   },
-  '/demo': {
-    name: 'Demo',
-  },
-  'mailto:joe@fednaresearch.com': {
-    name: 'Contact',
-  },
 }
 
 export function Navbar() {
