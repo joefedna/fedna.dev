@@ -1,14 +1,14 @@
 import Link from 'next/link'
 
 const navItems = {
-  '/': {
-    name: 'home',
+  'https://fednaresearch.com/': {
+    name: 'Fedna Research',
   },
-  '/blog': {
-    name: 'blog',
+  '/demo': {
+    name: 'Demo',
   },
-  'https://vercel.com/templates/next.js/portfolio-starter-kit': {
-    name: 'deploy',
+  'mailto:joe@fednaresearch.com': {
+    name: 'Contact',
   },
 }
 
