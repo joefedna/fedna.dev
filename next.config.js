@@ -1,9 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  images: {
-    unoptimized: true,
-  },
+  ...(process.env.GITHUB_PAGES === 'true' && {
+    output: 'export',
+    basePath: '/fedna.dev',
+    images: {
+      unoptimized: true,
+    },
+  }),
+  ...(process.env.GITHUB_PAGES !== 'true' && {
+    images: {
+      unoptimized: true,
+    },
+  }),
 }
 
 module.exports = nextConfig
